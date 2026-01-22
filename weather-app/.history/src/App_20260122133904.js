@@ -74,8 +74,8 @@ function App() {
   return (
     <div className="app">
       <div className="container">
-        <header className="navbar">
-          <h1>SkyBuzz⛅</h1>
+        <header>
+          <h1>VayuX</h1>
           <button onClick={toggleDarkMode} className="theme-toggle">
             {darkMode ? <WiNightClear /> : <WiDaySunny />}
           </button>
@@ -108,9 +108,8 @@ function App() {
           </div>
         )}
         {weather && <Weather weather={weather} darkMode={darkMode} />}
-        <footer className="footer">
-          <p>Made with ❤️ by Kalpna✨</p>
-
+        <footer>
+          <p>Creted by Kalpna✨ | Built with React</p>
         </footer>
       </div>
     </div>

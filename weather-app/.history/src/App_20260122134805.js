@@ -74,8 +74,8 @@ function App() {
   return (
     <div className="app">
       <div className="container">
-        <header className="navbar">
-          <h1>SkyBuzz⛅</h1>
+        <header>
+          <h1>Mausamify⛅</h1>
           <button onClick={toggleDarkMode} className="theme-toggle">
             {darkMode ? <WiNightClear /> : <WiDaySunny />}
           </button>
